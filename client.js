@@ -28,6 +28,7 @@ const connect = function() {
     console.log('player says:', data);
   });  
 
+  // returning the conn object from the connect function allow us to interact with the server
   return conn;
 };
 
